@@ -1,0 +1,30 @@
+Script started on Fri 20 May 2016 12:20:32 PM EDT
+dponziano@matrix:~> whoami
+dponziano
+dponziano@matrix:~> cat w1.c
+//Code Quest
+//By: Daniel Ponziano
+//w1.c
+
+#include <stdio.h>
+
+int main (void){
+printf ("+-----------------------+\n");
+printf ("|                       |\n");
+printf ("|       CODE QUEST      |\n");
+printf ("|                       |\n");
+printf ("+-----------------------|\n");
+
+return 0;
+}
+dponziano@matrix:~> clang w1.c
+dponziano@matrix:~> a.out
++-----------------------+
+|                       |
+|       CODE QUEST      |
+|                       |
++-----------------------|
+dponziano@matrix:~> exit
+exit
+
+Script done on Fri 20 May 2016 12:20:54 PM EDT
